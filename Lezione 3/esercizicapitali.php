@@ -13,3 +13,9 @@ The capital of Germany is Berlin
 La capitale Beligio è Brussels.
 
 */
+
+asort($catipal);
+foreach ($catipal as $key => $val) {
+    echo "La capitale di " .$key. " e' " .$val. "<br>";
+}
+
